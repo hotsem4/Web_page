@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kokoa Talk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">범수</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img src="img/design_doguri.jpeg" />
+        <div class="message-row__content">
+          <span class="message__author">디자이너_도구리</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >죄송합니다ㅠ<br />수정사항 다시 보내드렸어요!
+              부탁드리겠습니다!!</span
+            >
+            <span class="message__time">17:01</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >수정사항 변경해서 보내드렸습니다.
+            </span>
+            <span class="message__time">17:52</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="img/design_doguri.jpeg" />
+        <div class="message-row__content">
+          <span class="message__author">디자이너_도구리</span>
+          <div class="message__info">
+            <span class="message__bubble">
+              죄송하지만ㅜ 수정사항 중 누락된 부분이 있어서요ㅠ<br />
+              다시 수정사항 다시 보내드릴테니 수정해서 보내줄 수 있으실까요?
+            </span>
+            <span class="message__time">17:57</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">
+              디자이너님의 8번의 수정사항 누락건 때문에 제가 수정만 8번
+              했습니다.<br />
+              죄송하지만 저는 퇴근하겠습니다.
+            </span>
+            <span class="message__time">17:59</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="img/design_doguri.jpeg" />
+        <div class="message-row__content">
+          <span class="message__author">디자이너_도구리</span>
+          <div class="message__info">
+            <span class="message__bubble"> 제발 연락 좀 받아주세요ㅠㅠ </span>
+            <span class="message__time">18:01</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>화면이 너무 큽니다... 화면의 크기를 줄여주세요!!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
