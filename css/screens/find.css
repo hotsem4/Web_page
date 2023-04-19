@@ -44,8 +44,7 @@
 .open-post__column {
   margin-bottom: 15px;
 }
-
-.open-post__hashtags {
+.open-post .open-post__hashtags {
   text-transform: uppercase;
   opacity: 0.6;
 }
@@ -123,4 +122,8 @@
 .open-post__heart-count:hover i {
   will-change: transform;
   animation: heartBeat 1s linear infinite;
+}
+
+.second-post {
+  margin-bottom: 75px;
 }
